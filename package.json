@@ -1,9 +1,9 @@
 {
   "name": "sakura-airtable-user-modules",
   "version": "1.0.0",
-  "main": "src/modules/findUserById.js",
+  "main": "findUserById.js",
   "scripts": {
-    "start": "node src/modules/findUserById.js"
+    "start": "node findUserById.js"
   },
   "dependencies": {
     "airtable": "^0.12.1"
