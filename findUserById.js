@@ -1,2 +1,9 @@
-console.log("✅ sakura-airtable-user-modules 起動成功！");
-setInterval(() => {}, 1000); // プロセス維持
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.end("✅ sakura-airtable-user-modules 起動成功");
+});
+
+server.listen(process.env.PORT || 3000, () => {
+  console.log("🌸 モジュール起動中...");
+});
